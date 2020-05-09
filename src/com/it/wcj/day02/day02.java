@@ -6,4 +6,5 @@ package com.it.wcj.day02;
  * @Date 2020/4/30 15:30
  **/
 public class day02 {
+
 }
