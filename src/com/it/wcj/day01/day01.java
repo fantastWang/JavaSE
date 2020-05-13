@@ -13,7 +13,7 @@ public class day01 {
      * @Author wangchaojie
      * @Description 当容量小的与容量大的数据类型进行运算时，结果自动提升到容量大的数据类型
      * byte、char、short-->int-->long-->float-->double
-     * 注意!!!byte、char、short三者互相做运算，或者自己跟自己运算时，结果为int型
+     * 注意!!!byte、char、short三者互相做运算，或者自己跟自己运算时，结果都为int型
      * @Date 15:10 2020/5/9
      **/
     @Test
