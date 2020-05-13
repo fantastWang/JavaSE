@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 /**
  * @author wangchaojie
- * @Description 每日主要知识点
+ * @Description 数据类型、进制学习
  * @Date 2020/4/30 14:45
  **/
 public class day01 {
@@ -59,6 +59,4 @@ public class day01 {
         int a4 = 0x10;
         System.out.println(a1+"-"+a2+"-"+a3+"-"+a4);
     }
-
-
 }
