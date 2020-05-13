@@ -71,16 +71,33 @@ public class day02 {
         //这里没有改变数据类型，效率较高
         short s2 = 10;
         s2 = s2++;
-        s2+=s2; //也不会改变数据类型
+        s2 += s2; //也不会改变数据类型
+
+        int m = 2;
+        int n = 3;
+        //n=n*m++  ==>3*(2++)
+        n *= m++;
+        System.out.println("m=" + m + "n=" + n);
+
+        int n1= 10;
+        //n1= n1+(n1++)+(++n1);
+        //n1= 10+10+12 n1++的时候已经进行了运算，所以是++n1是12
+        n1+=(n1++)+(++n1);
+        System.out.println("n1="+n1);
     }
 
     /**
      * @Author wangchaojie
-     * @Description 位运算符
+     * @Description 位运算符：是对整数的二进制进行运算
      * @Date 15:32 2020/5/12
      **/
     @Test
     public void position() {
-
+        //左移 4*2*2
+        System.out.println(4<<2);
+        //右移 3/2=1
+        System.out.println(3>>2);
+        //无符号右移 3/2=1
+        System.out.println(3>>>1);
     }
 }
