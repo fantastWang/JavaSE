@@ -1,6 +1,6 @@
 package com.it.wcj.day03;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 /**
  * @author wangchaojie
@@ -10,14 +10,14 @@ import org.junit.jupiter.api.Test;
 public class day03 {
 
     /**
-      * @Author wangchaojie
-      * @Description 当switch case的语句一致时，可以考虑进行合并，减少冗余
-      * @Date 17:30 2020/5/13
-      **/
+     * @Author wangchaojie
+     * @Description 当switch case的语句一致时，可以考虑进行合并，减少冗余
+     * @Date 17:30 2020/5/13
+     **/
     @Test
-    public void switchOperation(){
+    public void switchOperation() {
         String str = "123";
-        switch (str){
+        switch (str) {
             case "1":
                 System.out.println("1");
                 break;

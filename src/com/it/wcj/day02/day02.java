@@ -1,6 +1,6 @@
 package com.it.wcj.day02;
 
-import org.junit.jupiter.api.Test;
+import org.junit.Test;
 
 /**
  * @author wangchaojie
@@ -79,11 +79,11 @@ public class day02 {
         n *= m++;
         System.out.println("m=" + m + "n=" + n);
 
-        int n1= 10;
+        int n1 = 10;
         //n1= n1+(n1++)+(++n1);
         //n1= 10+10+12 n1++的时候已经进行了运算，所以是++n1是12
-        n1+=(n1++)+(++n1);
-        System.out.println("n1="+n1);
+        n1 += (n1++) + (++n1);
+        System.out.println("n1=" + n1);
     }
 
     /**
@@ -94,10 +94,10 @@ public class day02 {
     @Test
     public void position() {
         //左移 4*2*2
-        System.out.println(4<<2);
+        System.out.println(4 << 2);
         //右移 3/2=1
-        System.out.println(3>>2);
+        System.out.println(3 >> 2);
         //无符号右移 3/2=1
-        System.out.println(3>>>1);
+        System.out.println(3 >>> 1);
     }
 }
